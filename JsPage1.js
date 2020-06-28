@@ -1,3 +1,4 @@
+/*this is added as GIT Rep*/
 var itemCounter = 1;
 var vHeadLine = document.getElementById("RS1") ;
 var Ulvaritems = document.getElementById("ULRS1").getElementsByTagName("li");
@@ -6,6 +7,7 @@ var vOuterList = document.getElementById("ULRS1");
 
 vButton.addEventListener("click" , addnewListItems);
 vOuterList.addEventListener("click" , callfunc1);
+
 
 //Adding Listener at OuterList level
 
